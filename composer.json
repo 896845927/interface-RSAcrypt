@@ -1,0 +1,20 @@
+{
+    "name": "mrmiao/interface-rsa-crypt",
+    "description": "Encrypt the JSON-type interface request and return data by using the RSA algorithm",
+    "type": "library",
+    "authors": [
+        {
+            "name": "kwc5132",
+            "email": "896845927@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ext-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mrmiao\\crypt\\": "src/"
+        }
+    }
+}
