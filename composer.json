@@ -16,5 +16,10 @@
         "psr-4": {
             "mrmiao\\crypt\\": "src/"
         }
+    },
+    "scripts": {
+        "post-package-install": [
+            "mrmiao\\script\\RSAConfig::postPackageInstall"
+        ]
     }
 }
