@@ -8,7 +8,6 @@
             "email": "896845927@qq.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "ext-openssl": "*"
     },
